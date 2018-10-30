@@ -1,6 +1,6 @@
 ﻿namespace 委托
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,13 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.num = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // num
+            // 
+            this.num.Location = new System.Drawing.Point(274, 190);
+            this.num.Name = "num";
+            this.num.Size = new System.Drawing.Size(213, 25);
+            this.num.TabIndex = 0;
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.num);
+            this.Name = "Main";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Main_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox num;
     }
 }
 
