@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体通讯", "委托\窗体通讯.csproj", "{998BF0C9-F501-4859-B717-638FE57AB300}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体通讯2", "窗体通讯@\窗体通讯2.csproj", "{2DB724AB-C3C0-4B85-ACA4-CD586BDBB01B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多窗体通讯", "多窗体通讯\多窗体通讯.csproj", "{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{998BF0C9-F501-4859-B717-638FE57AB300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{998BF0C9-F501-4859-B717-638FE57AB300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{998BF0C9-F501-4859-B717-638FE57AB300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB724AB-C3C0-4B85-ACA4-CD586BDBB01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB724AB-C3C0-4B85-ACA4-CD586BDBB01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB724AB-C3C0-4B85-ACA4-CD586BDBB01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB724AB-C3C0-4B85-ACA4-CD586BDBB01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
