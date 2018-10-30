@@ -34,11 +34,11 @@
             // 
             // btnCount
             // 
-            this.btnCount.Location = new System.Drawing.Point(253, 163);
+            this.btnCount.Location = new System.Drawing.Point(128, 47);
             this.btnCount.Name = "btnCount";
             this.btnCount.Size = new System.Drawing.Size(290, 141);
             this.btnCount.TabIndex = 0;
-            this.btnCount.Text = "计数";
+            this.btnCount.Text = "计数器";
             this.btnCount.UseVisualStyleBackColor = true;
             this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
             // 
@@ -46,9 +46,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(583, 248);
             this.Controls.Add(this.btnCount);
             this.Name = "Follow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Follow";
             this.Load += new System.EventHandler(this.Follow_Load);
             this.ResumeLayout(false);

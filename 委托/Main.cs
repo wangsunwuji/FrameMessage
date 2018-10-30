@@ -22,11 +22,11 @@ namespace 委托
        
         private void Main_Load(object sender, EventArgs e)
         {
-          
+            this.lll1.Text = "";
         }
         private void ShowNum(string c)
         {
-            this.num.Text = c;
+            this.lll1.Text = c;
         }
         
 

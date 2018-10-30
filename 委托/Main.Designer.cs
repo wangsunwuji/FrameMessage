@@ -28,22 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.num = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lll1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // num
+            // label1
             // 
-            this.num.Location = new System.Drawing.Point(274, 190);
-            this.num.Name = "num";
-            this.num.Size = new System.Drawing.Size(213, 25);
-            this.num.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(59, 89);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(172, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "显示从其他窗口的点击数";
+            // 
+            // lll1
+            // 
+            this.lll1.AutoSize = true;
+            this.lll1.Location = new System.Drawing.Point(265, 89);
+            this.lll1.Name = "lll1";
+            this.lll1.Size = new System.Drawing.Size(172, 15);
+            this.lll1.TabIndex = 1;
+            this.lll1.Text = "显示从其他窗口的点击数";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.num);
+            this.ClientSize = new System.Drawing.Size(566, 207);
+            this.Controls.Add(this.lll1);
+            this.Controls.Add(this.label1);
             this.Name = "Main";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Main_Load);
@@ -54,7 +67,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox num;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lll1;
     }
 }
 
