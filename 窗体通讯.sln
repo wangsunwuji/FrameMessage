@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "窗体通讯2", "窗体通�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多窗体通讯", "多窗体通讯\多窗体通讯.csproj", "{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步通讯", "异步通讯\异步通讯.csproj", "{6CB2E91F-E83B-4ECD-8000-B0411A867F72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89FCD0A7-07E5-4149-8B1D-4FDA8AED4654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB2E91F-E83B-4ECD-8000-B0411A867F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB2E91F-E83B-4ECD-8000-B0411A867F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB2E91F-E83B-4ECD-8000-B0411A867F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB2E91F-E83B-4ECD-8000-B0411A867F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
